@@ -1,0 +1,18 @@
+
+node { 
+   stage("Pull From SCM"){
+    echo 'Pulling From SCM'
+   }
+
+    stage("Build"){
+     echo 'Building'
+   }
+     stage("Test"){
+     echo 'Testing'
+   }
+
+     stage("Publish"){
+     echo 'Publishing'
+   }
+
+}
